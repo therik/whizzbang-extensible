@@ -1,0 +1,26 @@
+{
+    "name": "therik/whizzbang-extensible",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "authors": [
+        {
+            "name": "Jiri Cendra",
+            "email": "jc.flash@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "WhizzBang\\": "src/"
+        },
+        "tests": {
+            "WhizzBang\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
