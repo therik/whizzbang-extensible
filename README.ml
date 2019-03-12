@@ -1,6 +1,7 @@
 1: To install
 
-$ git checkout master
+git clone this repo
+
 $ composer install
 
 2: To print WhizzBang.
